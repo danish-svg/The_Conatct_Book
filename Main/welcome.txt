@@ -1,0 +1,6 @@
+
+<<<***->WELCOME TO YOUR CONTACT BOOK<-***>>>
+<<<***Credits - Members of Fantstic 5 group***>>>
+
+<1 : Add new contact>
+<2 : Search for old one>
