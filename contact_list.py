@@ -1,0 +1,25 @@
+def start():
+	print('*welcome to the Contact Book*')
+	print('*****************************')
+	print('<1: Add new Contact')
+	print('<2: Get old Contact')
+	choice=input('Enter your choice(1 or 2): ')
+	if choice=='1':
+		print('***Please enter the following particulars of your Contact***')
+		name=input('Enter the Contact Name: ')
+		num=input('Enter phone number: ')
+		while num.isdigit() == False:
+			print('invalid input,try again')
+			num=input('eNTER a valid num again: ')
+			break
+		print('Your Contact Saved successfully')
+		dec=input('<Enter c to run or press enter to exit: ')
+		for j in dec:
+			if dec=='enter':
+				print('successfully exited')
+				break
+	elif choice=='2':
+		print('here is your contact names list: ')
+
+
+start()
